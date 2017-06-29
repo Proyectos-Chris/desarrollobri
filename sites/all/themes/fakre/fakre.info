@@ -1,0 +1,82 @@
+;Theme info
+name = FAKRE
+description = FAKRE ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+; Add a style sheet
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/page-assets.css
+stylesheets[all][] = css/helper-elements.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/mediaelementplayer.css
+stylesheets[all][] = css/mejs-skins.css
+stylesheets[all][] = css/buton-comp.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/xmas.css
+stylesheets[all][] = css/update.css
+stylesheets[all][] = css/basic-pages.css
+
+; Add a script
+scripts[] = js/jquery-1.11.3.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.main.js
+scripts[] = js/plugins.js
+scripts[] = js/snowplugins.js
+scripts[] = js/snowfall.jquery.js
+scripts[] = js/update.js
+
+;Core regions
+
+
+regions[header_top] = 'Header top'
+regions[icon_list_menu] = 'Icon list menu'
+regions[shopping_cart] = 'Shopping cart'
+regions[header_center] = 'Header center layout 17'
+regions[header_search] = 'Header search'
+regions[menu_nav] = 'Menu nav'
+regions[main_menu] = 'Main menu'
+regions[one_menu] = 'Onepage menu'
+regions[side_menu] = 'Side menu'
+regions[slider] = 'Slider'
+regions[content] = 'Main Content'
+regions[section] = 'Section'
+regions[sidebar_first] = 'Sidebar Left'
+regions[sidebar_second] = 'Sidebar Right'
+regions[shop_sidebar] = 'Shop sidebar'
+regions[related_post] = 'Related post'
+regions[related_products] = 'Related products'
+regions[bottom_portfolio] = 'Bottom portfolio'
+regions[footer_top] = 'Footer top'
+regions[footer] = 'Footer'
+regions[footer_center] = 'Footer center'
+regions[footer_bottom] = 'Footer bottom'
+
+
+regions[highlighted] = 'highlighted '
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+
+version = "7.x"
+project = "FAKRE"
+datestamp = "1365027012"

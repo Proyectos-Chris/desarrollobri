@@ -1,0 +1,59 @@
+.informes-recientes .views-row{
+	margin-bottom: 20px;
+}
+.informes-recientes.widget{
+	margin: 0 0 58px;
+	padding: 0 0 30px;
+}
+.buscador-informes .views-row{
+	margin-bottom: 10px;
+}
+.buscador-informes .view-content{
+	margin-top: 24px;
+}
+.buscador-informes #edit-shs-term-node-tid-depth-wrapper,
+.buscador-informes #edit-field-fecha-value-wrapper{
+	padding: 0px;
+}
+.buscador-informes #edit-shs-term-node-tid-depth-wrapper select,
+.buscador-informes #edit-field-fecha-value-wrapper select{
+	height: 40px;
+	margin-right: 14px;
+}
+.buscador-informes #edit-submit-buscador{
+	color: #fff;
+	background-color: #00aefa;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 10px 30px;
+	border: 1px solid #dddddd;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+.file-icon {
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.buscador-informes #edit-submit-buscador:hover{
+	background-color: #008bc8;
+	color: #ffffff;
+}
+@media screen and (max-width: 480px){
+	.buscador-informes #edit-shs-term-node-tid-depth-wrapper,
+	.buscador-informes #edit-shs-term-node-tid-depth-wrapper select,
+	.buscador-informes .views-submit-button,
+	.buscador-informes #edit-submit-buscador,
+	.buscador-informes #edit-field-fecha-value-value,
+	.buscador-informes #edit-field-fecha-value-wrapper,
+	.buscador-informes .container-inline-date .form-item,
+	.buscador-informes .date-month,
+	.buscador-informes .date-month select,
+	.buscador-informes .date-year select{
+	width: 100%
+	}
+	.buscador-informes .views-row{
+		margin-bottom: 20px;
+		width: 100%;
+		float: none;
+	}
+}

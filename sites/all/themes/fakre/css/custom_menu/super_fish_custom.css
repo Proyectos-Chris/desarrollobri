@@ -1,0 +1,20 @@
+
+.menu-widget-custom ul li{
+
+	background: #fff;
+	border: 0;
+
+}
+
+#superfish-1{
+	background: none!important;
+	margin: 0 0 52px;
+    padding: 0 0 46px;
+    font: 14px/20px "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#superfish-1 li{
+	background: none!important;
+}
+#superfish-1 li.active-trail a.active{
+	    color: #00aefa!important;
+}

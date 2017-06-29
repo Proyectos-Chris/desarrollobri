@@ -1,0 +1,49 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+15-2. youga slider Styles / .youga-slider
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+15-2. youga slider Styles / .youga-slider
+-------------------------------------------------------------------*/
+.youga-slider{
+    color: $white;
+	font: 300 14px/24px $font-family-sans-serif;
+	.caption{
+		z-index: 55;
+		height: 787px;
+		position: relative;
+		padding: 120px 0 20px;
+        background:rgba(0, 0, 0, 0.5);
+		@include v-align(caption-holder, middle);
+	}
+	.caption-holder{width: 100%;}
+	h1{
+		margin: 0 0 25px;
+		text-transform: uppercase;
+		font: 700 40px/56px $font-family-sans-serif;
+		@include breakpoint($screen-xs-max){
+			font-size: 20px;
+			line-height: 25px;
+		}
+	}
+	.btn{margin: 0 10px 10px 0;}
+	p{margin: 0 0 34px;}
+	.beans-pagination{
+		bottom:10px;
+		text-align: center;
+		li{
+			@include vertical-align(inline-block, top);
+			margin:0 3px;
+			a{
+				display: block;
+				text-indent: -9999px;
+				border-radius:50%;
+				border:2px solid $white;
+				@include square(10px);
+				&:hover{text-decoration: none;}
+			}
+		}
+	}
+}
